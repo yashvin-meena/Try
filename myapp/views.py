@@ -1,6 +1,5 @@
 from rest_framework.views import APIView
 from django.http import JsonResponse
-from django.shortcuts import render
 
 class StaticAPIView(APIView):
 
