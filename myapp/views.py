@@ -1,6 +1,6 @@
 from rest_framework.views import APIView
 from django.http import JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 class StaticAPIView(APIView):
 
